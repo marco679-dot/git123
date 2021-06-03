@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 5%;
+}
+
+.logo{
+    color: white;
+}
+
+h1 {
+   text-align: center;
+   font-size: 50pt;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+}
+
+.borde {
+    padding: 15px;
+    border: solid 1px black;
+    background-color: yellow;
+}
+
+h2{
+    color: white;
+    size: 20px ;
+    text-align: center;
+}
+
+.publi{
+     margin: 100px;
+}
+
+li a{
+    padding-bottom: 13px;
+    background-color: rgb(51, 43, 5);
+    color: rgb(248, 244, 244);
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+
+.medio{
+    margin-left: 310px;
+    padding: 5%;
+    border-radius: 60%;
+}
+
+.pie{
+    display: inline;
+}
+
+.o{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 100px;
+} 
+
+h3{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.t{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    color: white;
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+ }
+
+ @keyframes aparecer{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+h5{
+    margin: 50px;
+}
+
+.v{
+    margin: 100px;
+}
+.publi{
+
+margin-left: 400px;
+}
+
+ .anima{
+    height: 300px;
+    width: 500px;
+    background-image: url(https://www.latinspots.com/files/galerias/CocaColaFrases_1_Grey_gal_g.jpg);
+    animation-name: efecto;
+animation-iteration-count: infinite;
+animation-timing-function: ease-out;
+animation-duration:4s;
+animation-delay:0s;
+}
+
+
+@keyframes efecto {
+ 0%{ width: 800px;
+    height:  350px;
+ }
+
+ 50%{
+     width: 800px;
+     height: 400px;
+ }
+ 100%{
+    width: 800px;
+    height: 300px
+    ;
+ }
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+
+td{
+    color: white; 
+}
+
+table{
+   margin-left: 350px;
+   
+}
+
+h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes aparecer{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+.f{
+    padding: 60px;
+    width: 600px;
+    margin-left: 400px;
+    color: rgb(10, 10, 10);
+      
+}
+.vi{ height: 500px;
+width: 400px;
+margin-left: 50px;
+}
+
+
+.bordeT {
+    padding: 15px;
+    border: solid 1px black;
+    background-color: rgb(243, 243, 12);
+    margin-top: 100px;
+}
+
+.c{
+    padding: 100px;
+
+}
+
+.edi{
+    height: 500px;
+    width: 300px;
+   margin-left: 450px;
+}
+.edi2{
+    height: 500px;
+    width: 400px;
+   margin-left: 400px;
+}
+
+.edi3{
+    height: 500px;
+    width: 600px;
+   margin-left: 350px;
+}
+
+.edi4{
+    height: 700px;
+    width: 600px;
+   margin-left: 350px;
+}
